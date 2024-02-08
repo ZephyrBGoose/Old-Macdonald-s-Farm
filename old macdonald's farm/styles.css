@@ -1,0 +1,138 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #4E3502;
+    color: #034B62 ;
+    font-family: 'Cute Font', sans-serif;
+    text-align: center;
+}
+
+header{
+    font-family: 'Sixtyfour', sans-serif;
+    background-image: url(./images/martian\ dog.png);
+    padding: 5%;
+    border-radius: 25%;
+    margin: 2%;
+    text-align: left;
+
+}
+
+main {
+    max-width: 90%;
+    background-color: #9BCD86  ;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #D501B4; 
+    background-color: #D89825  ;
+    font-family: 'Sixtyfour', sans-serif;
+    padding: 2%;
+
+}
+
+h3 {
+    font-size: 2rem;
+    max-width: 80%;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: bold;
+    max-width: 80%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.gallery-container figure {
+    flex-basis: 25%;
+    background-color: #D89825  ;
+
+}
+
+.gallery-container figure img {
+    padding-top: 2rem;
+  max-width: 90%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.gallery-container figure figcaption {
+    font-size: 2rem;
+}
+
+
+footer {
+    margin-top: 5%;
+    padding: 0 2%;
+    border: 1rem solid #D89825;
+    border-radius: 10%;
+    outline: 0.25rem solid #D501B4;
+    outline-offset: -1rem;
+}
+
+footer p {
+    font-size: 1rem;
+    padding: 0;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 1000px){
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .gallery-container figure {
+        flex-basis: 60%;
+        background-color: #D89825  ;
+    
+    }
+    
+}
